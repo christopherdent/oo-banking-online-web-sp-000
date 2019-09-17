@@ -33,7 +33,7 @@ class Transfer
     
     
     account = BankAccount.new(name)
-    if self.valid? == false 
+    if !transfer.valid?
       p "Transaction rejected. Please check your account balance." 
       self.status = "rejected"
       
