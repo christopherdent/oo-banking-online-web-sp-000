@@ -3,6 +3,7 @@ require 'pry'
 
 class Transfer
  attr_accessor :sender, :receiver, :amount, :status, :name 
+ attr_reader :closed_account_transfer
  
   def initialize(sender, receiver, amount)
     @sender = sender 
