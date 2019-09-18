@@ -41,7 +41,8 @@ class Transfer
     if status == "complete"
     self.sender.balance += amount
     self.receiver.balance -= amount
-    "reversed"
+    @status = "reversed"
+    
     end 
   end 
 
