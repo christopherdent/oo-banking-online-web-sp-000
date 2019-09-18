@@ -49,6 +49,4 @@ class Transfer
   
   
 end
-    #if account.balance < @amount
-     # p "Transaction rejected. Please check your account balance."
-    #end 
+    #if account.balance < @amoun
