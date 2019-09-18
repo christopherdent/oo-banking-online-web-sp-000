@@ -35,7 +35,9 @@ class Transfer
     account = BankAccount.new(name)
     if self.valid? == false || nil 
       "Transaction rejected. Please check your account balance."
+      @status = "rejected"
     end
+    
  
  @status 
   end 
