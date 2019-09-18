@@ -29,6 +29,9 @@ class Transfer
    
     if self.status = "complete"
       @amount = 0
+    elsif 
+    
+    
     end 
     
     
